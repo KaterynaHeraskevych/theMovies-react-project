@@ -1,16 +1,74 @@
-# React + Vite
+#  Movie Search App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast and responsive movie search application built with **React** and **Vite**.
+Browse popular movies or search for your favorite titles in real-time with a clean and dynamic user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Features
 
-## React Compiler
+*  Search movies by title
+*  Display popular movies on initial load
+*  Fast performance powered by Vite
+*  Real-time updates using React hooks
+*  Loading state handling
+*  Error handling for API requests
+*  Fully responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+##  Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React** (useState, useEffect)
+* **Vite**
+* **JavaScript (ES6+)**
+* **CSS**
+
+---
+
+##  Project Structure
+
+```
+src/
+│
+├── components/     # Reusable components (MovieCard)
+├── services/       # API functions (searchMovies, getPopularMovies)
+├── pages/          # Main pages (Home)
+├── css/            # Styles
+└── App.jsx
+```
+
+---
+
+##  How It Works
+
+* On app load, popular movies are fetched and displayed
+* Users can search for movies using the search bar
+* Results update dynamically without page reload
+* Loading and error states improve user experience
+
+---
+
+##  Getting Started
+
+### 1. Install dependencies
+
+```
+npm install
+```
+
+### 2. Run development server
+
+```
+npm run dev
+```
+
+### 3. Open in browser
+
+```
+http://localhost:5173
+```
+
+
+
+This project is open source and available under the MIT License.
