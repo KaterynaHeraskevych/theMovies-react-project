@@ -70,5 +70,3 @@ http://localhost:5173
 ```
 
 
-
-This project is open source and available under the MIT License.
